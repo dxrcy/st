@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Fira Code:pixelsize=14:antialias=true:autohint=true";
-static int borderpx = 8;
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -124,7 +124,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#080b10", /* default background colour */
 };
 
 
